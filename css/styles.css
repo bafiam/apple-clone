@@ -34,7 +34,7 @@
 
 .header-container header {
   display: inline-block;
-  width: 100%;
+  width: 990px;
   margin: 200px auto;
   margin-left: 180px;
 }
@@ -74,7 +74,8 @@
 }
 
 .body-container {
-  height: 25%;
+  height: 200px;
+  width: 100%;
   display: flex;
 }
 
@@ -85,6 +86,8 @@
 
 .body-imgs {
   width: 25%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .more-info {
@@ -187,7 +190,14 @@ input[type="text"] {
   margin: 8px 30px;
 }
 
-input[type='text']:hover {
+input[type="text"]:hover {
   background-position-x: 100%;
   background-position-y: 100%;
+}
+
+.body-imgs > a > img {
+  height: 200px;
+  width: 364px;
+  border-color: white;
+  margin-left: -40px;
 }
