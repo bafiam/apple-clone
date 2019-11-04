@@ -20,7 +20,7 @@ This project consists of building a a webpage using images as a background and a
 
 ## Github Pages Link
 
-<>
+<https://bafiam.github.io/apple-clone/>
 
 ## License
 
