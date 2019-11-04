@@ -1,6 +1,6 @@
 # A Clone of Apple Website
 
-This project consists of building a a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the [Apple website](https://web.archive.org/web/20140301004610/http://www.apple.com/)webpage.
+This project consists of building a a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the [Apple website](https://web.archive.org/web/20140301004610/http://www.apple.com/) webpage.
 
 ## Project Description
 
@@ -17,6 +17,10 @@ This project consists of building a a webpage using images as a background and a
 1. HTML5
 2. CSS3
 3. BACKGROUNDS AND GRADIENTS
+
+## Github Pages Link
+
+<https://bafiam.github.io/apple-clone/>
 
 ## License
 
