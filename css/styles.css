@@ -24,11 +24,11 @@
   display: flex;
   position: absolute;
   width: 80%;
-  height: 40px;
+  height: 36px;
   background-size: cover;
   background-image: url(https://archive.md/UW4oR/959dc37b1b6692997a6d3ab19862dd59e5e83ecf.png);
   margin: 90px 30px 0 30px;
-  border-radius: 4px;
+  border-radius: 6px;
   left: 70px;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .more-info {
-  display: inline;;
+  display: inline;
 }
 
 .more-info > p,
@@ -117,6 +117,12 @@ footer {
   margin-top: -10px;
 }
 
+.more-info p > a,
+.footer-container footer p > a {
+  color: #08c;
+  text-decoration: none;
+}
+
 .header-nav ul {
   list-style-type: none;
   display: flex;
@@ -131,6 +137,7 @@ footer {
   border-right: 1px solid black;
   align-self: center;
   width: 13%;
+  height: 36px;
 }
 
 .header-nav ul > li > a {
@@ -143,64 +150,63 @@ footer {
   height: 30px;
   background-color: transparent;
   background-repeat: no-repeat;
+  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
 }
 
 .nav-apple {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% 0;
 }
 
 .nav-store {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% -30px;
 }
 
 .nav-mac {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% -60px;
 }
 
 .nav-ipod {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% -90px;
 }
 
 .nav-iphone {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% -120px;
 }
 
 .nav-ipad {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% -150px;
 }
 
 .nav-itune {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% -180px;
 }
 
 .nav-support {
-  background-image: url(https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png);
   background-position: 50% -210px;
 }
 
 input[type="text"] {
-  width: 70%;
+  width: 120px;
   height: 25px;
-  background-color: transparent;
   border-radius: 12px;
-  padding: 2px 18px 1px 22px;
+  padding: 2px 11px 1px 22px;
   background: url(https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png);
   background-position-x: 0;
   background-position-y: 0;
   background-repeat: no-repeat;
-  margin: 8px 30px;
+  margin: 8px 20px;
+  transition: width 0.3s, height 2s;
 }
 
-input[type="text"]:hover {
-  background-position-x: 100%;
-  background-position-y: 100%;
+input[type="text"]:focus {
+  background: url(https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png);
+  background-position-x: 0;
+  background-position-y: -20px;
+  outline: none;
+  padding: 2px 30px;
+  width: 160px;
+  margin: 8px 20px;
+  background-repeat: no-repeat;
 }
 
 .body-imgs > a > img {
@@ -237,12 +243,11 @@ input[type="text"]:hover {
   border-right: none;
 }
 
-.more-info p > a,
-.footer-container footer p > a {
-  color: #08c;
-  text-decoration: none;
-}
-
 .footer-container a:hover {
   text-decoration: underline;
+}
+
+.header-nav ul > li:hover {
+  background: linear-gradient(to right, #333, #888, #333);
+  cursor: pointer;
 }

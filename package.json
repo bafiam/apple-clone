@@ -1,0 +1,24 @@
+{
+  "name": "apple-clone",
+  "version": "1.0.0",
+  "description": "This project consists of building a a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the [Apple website](https://web.archive.org/web/20140301004610/http://www.apple.com/)webpage.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bafiam/apple-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bafiam/apple-clone/issues"
+  },
+  "homepage": "https://github.com/bafiam/apple-clone#readme",
+  "devDependencies": {
+    "stylelint": "^11.1.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
